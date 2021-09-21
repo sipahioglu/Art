@@ -1,0 +1,55 @@
+body {
+    background-color: #603e90!important
+}
+
+.art {
+    width: 50px;
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    color: #DCD7DA;
+    font-size: small;
+    font-family: Poppins;
+    font-style: normal;
+}   
+.leftCard {
+    position: absolute;
+    color: #DCD7DA;
+    z-index: 9;
+    left: 10%;
+    bottom: 22%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.article {
+    background-color: #DCD7DA;
+    padding:0 100px 0 100px;
+}
+.space{
+    height:100px;
+}
+.textFont {
+    font-family: Merriweather!important;
+}
+.color-1 {
+    background-color: #603E90!important;
+}
+.color-2 {
+    color: #1F1C3B;
+}
+.color-3 {
+    color: #29284D;
+}
+.color-4 {
+    color: #8B4FD7;
+    font-weight:400;
+}
+@media screen and (max-width: 768px) {
+    .leftCard {
+        font-size: 1.2rem !important;
+        bottom: 30%;
+    }
+    .article {
+        padding: 10px;
+    }
+}
